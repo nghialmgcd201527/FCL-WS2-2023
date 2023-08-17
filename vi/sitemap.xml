@@ -291,6 +291,16 @@
                 />
   </url><url>
     <loc>/vi/6-sum/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/6-sum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/6-sum/"
+                />
   </url><url>
     <loc>/vi/7-terminate/</loc>
     <xhtml:link

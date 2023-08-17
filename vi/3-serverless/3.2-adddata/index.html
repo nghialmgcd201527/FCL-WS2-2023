@@ -12,21 +12,21 @@
     <title>Thêm data và tìm hiểu quy trình xử lí của architecture :: AWS System Manager</title>
 
     
-    <link href="../../../css/nucleus.css?1691203938" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1691203938" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1691203938" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1691203938" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1691203938" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1691203938" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1691203938" rel="stylesheet">
-    <link href="../../../css/theme.css?1691203938" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1691203938" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1692263736" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1692263736" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1692263736" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1692263736" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1692263736" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1692263736" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1692263736" rel="stylesheet">
+    <link href="../../../css/theme.css?1692263736" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1692263736" rel="stylesheet">
     
-    <link href="../../../css/theme-workshop.css?1691203938" rel="stylesheet">
+    <link href="../../../css/theme-workshop.css?1692263736" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1691203938"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1692263736"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1691203938"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1691203938"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1692263736"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1692263736"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1691203938"></script>
+<script type="text/javascript" src="../../../js/search.js?1692263736"></script>
 
     
   </div>
@@ -907,7 +907,7 @@
     <br>
     <br>
         <b> Last Updated </b> <br>
-        <i><font color=orange>30-01-2022</font></i>
+        <i><font color=orange>17-08-2023</font></i>
     </left>
     <left>
         <br>
@@ -1005,7 +1005,7 @@
 <p>Coppy ID của API này. Click vào tên của API đó để xem chi tiết cách chúng ta đã tích hợp API Gateway với Lambda functions. Bạn có thể nhìn thấy bằng cách click vào các methods khác nhau như POST, GET, PUT và sẽ thấy mỗi methods được liên kết với Lamba function của nó. Cách này cho phép bạn mở rộng quy mô từng Lambda một cách độc lập mà không ảnh hưởng đến các Lambda functions khác.</p>
 <p>Như hình dưới đây, chúng ta click vào method POST nó sẽ ra quy trình hoạt động của method này.</p>
 <p><img src="../../../images/3.2-data/3.2-3.png" alt="VPC"></p>
-<p>Tiếp theo chúng ta sẽ add product vào hệ thống sử dụng API do API Gateway cung cấp. Quay trở lại Cloud9 terminal, coppy câu lệnh dưới đây, lệnh này sẽ đưa ra lệnh gọi POST REST tới API và thêm một product mới vào hệ thống. Chúng ta sẽ thay <strong><!-- raw HTML omitted --></strong> và <strong><!-- raw HTML omitted --></strong> bằng giá trị ID của API lúc nãy vừa coppy và region chúng ta đang hoạt động.</p>
+<p>Tiếp theo chúng ta sẽ add product vào hệ thống sử dụng API do API Gateway cung cấp. Quay trở lại Cloud9 terminal, coppy câu lệnh dưới đây, lệnh này sẽ đưa ra lệnh gọi POST REST tới API và thêm một product mới vào hệ thống. Chúng ta sẽ thay <strong>api-id</strong> và <strong>region</strong> bằng giá trị ID của API lúc nãy vừa coppy và region chúng ta đang hoạt động.</p>
 <pre tabindex="0"><code>curl -X POST https://&lt;api-id&gt;.execute-api.&lt;region&gt;.amazonaws.com/prod/product -H &#39;Content-Type: application/json&#39;  -d &#39;{&#34;category&#34;: &#34;category1&#34;, &#34;name&#34;: &#34;Lamborghini&#34;, &#34;price&#34;: &#34;1000&#34;, &#34;sku&#34;: &#34;dollar&#34;}&#39;
 </code></pre><p>Chúng ta sẽ thấy như hình:</p>
 <p><img src="../../../images/3.2-data/3.2-4.png" alt="VPC"></p>
@@ -1505,19 +1505,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1691203938"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1691203938"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1691203938"></script>
-    <script src="../../../js/jquery.sticky.js?1691203938"></script>
-    <script src="../../../js/featherlight.min.js?1691203938"></script>
-    <script src="../../../js/highlight.pack.js?1691203938"></script>
+    <script src="../../../js/clipboard.min.js?1692263736"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1692263736"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1692263736"></script>
+    <script src="../../../js/jquery.sticky.js?1692263736"></script>
+    <script src="../../../js/featherlight.min.js?1692263736"></script>
+    <script src="../../../js/highlight.pack.js?1692263736"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1691203938"></script>
-    <script src="../../../js/learn.js?1691203938"></script>
-    <script src="../../../js/hugo-learn.js?1691203938"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1692263736"></script>
+    <script src="../../../js/learn.js?1692263736"></script>
+    <script src="../../../js/hugo-learn.js?1692263736"></script>
 
-    <link href="../../../mermaid/mermaid.css?1691203938" rel="stylesheet" />
-    <script src="../../../mermaid/mermaid.js?1691203938"></script>
+    <link href="../../../mermaid/mermaid.css?1692263736" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1692263736"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

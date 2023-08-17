@@ -9,24 +9,24 @@
 
     <link rel="icon" href="../../images/favicon.png" type="image/png">
 
-    <title>Preparing VPC and EC2 :: AWS System Manager</title>
+    <title>Setup CloudWatch log role ARN for API Gateway :: AWS System Manager</title>
 
     
-    <link href="../../css/nucleus.css?1691203936" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1691203936" rel="stylesheet">
-    <link href="../../css/hybrid.css?1691203936" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1691203936" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1691203936" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1691203936" rel="stylesheet">
-    <link href="../../css/atom-one-dark-reasonable.css?1691203936" rel="stylesheet">
-    <link href="../../css/theme.css?1691203936" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1691203936" rel="stylesheet">
+    <link href="../../css/nucleus.css?1692263736" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1692263736" rel="stylesheet">
+    <link href="../../css/hybrid.css?1692263736" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1692263736" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1692263736" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1692263736" rel="stylesheet">
+    <link href="../../css/atom-one-dark-reasonable.css?1692263736" rel="stylesheet">
+    <link href="../../css/theme.css?1692263736" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1692263736" rel="stylesheet">
     
-    <link href="../../css/theme-workshop.css?1691203936" rel="stylesheet">
+    <link href="../../css/theme-workshop.css?1692263736" rel="stylesheet">
     
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1691203936"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1692263736"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1691203936"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1691203936"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1692263736"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1692263736"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1691203936"></script>
+<script type="text/javascript" src="../../js/search.js?1692263736"></script>
 
     
   </div>
@@ -113,13 +113,13 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.1-whatsaas/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/1-introduce/1.1-whatsaas/" title="What is unique about SaaS-based delivery model?" class="dd-item 
         
         
         
         ">
       <a href="../../1-introduce/1.1-whatsaas/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 1.1 </b> What is unique about SaaS-based delivery model?
           
             <i class="fas fa-check read-icon"></i>
           
@@ -141,13 +141,13 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.2-whyserverless/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/1-introduce/1.2-whyserverless/" title="Why Serverless?" class="dd-item 
         
         
         
         ">
       <a href="../../1-introduce/1.2-whyserverless/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 1.2 </b> Why Serverless?
           
             <i class="fas fa-check read-icon"></i>
           
@@ -169,13 +169,13 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.3-whatbuild/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/1-introduce/1.3-whatbuild/" title="What you will build?" class="dd-item 
         
         
         
         ">
       <a href="../../1-introduce/1.3-whatbuild/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 1.3 </b> What you will build?
           
             <i class="fas fa-check read-icon"></i>
           
@@ -197,13 +197,13 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.4-serverlessused/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/1-introduce/1.4-serverlessused/" title="AWS Serverless services used" class="dd-item 
         
         
         
         ">
       <a href="../../1-introduce/1.4-serverlessused/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 1.4 </b> AWS Serverless services used
           
             <i class="fas fa-check read-icon"></i>
           
@@ -225,13 +225,13 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.5-prior/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/1-introduce/1.5-prior/" title="Prior knowledge" class="dd-item 
         
         
         
         ">
       <a href="../../1-introduce/1.5-prior/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 1.5 </b> Prior knowledge
           
             <i class="fas fa-check read-icon"></i>
           
@@ -291,13 +291,13 @@
  
   
     
-    <li data-nav-id="/2-prerequiste/2.1-createcloud9workspace/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.1-createcloud9workspace/" title="Create a new Cloud9 IDE" class="dd-item 
         
         
         
         ">
       <a href="../../2-prerequiste/2.1-createcloud9workspace/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 2.1 </b> Create a new Cloud9 IDE
           
             <i class="fas fa-check read-icon"></i>
           
@@ -319,13 +319,13 @@
  
   
     
-    <li data-nav-id="/2-prerequiste/2.2-repodisk/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.2-repodisk/" title="Increase free disk of Cloud9" class="dd-item 
         
         
         
         ">
       <a href="../../2-prerequiste/2.2-repodisk/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 2.2 </b> Increase free disk of Cloud9
           
             <i class="fas fa-check read-icon"></i>
           
@@ -347,13 +347,13 @@
  
   
     
-    <li data-nav-id="/2-prerequiste/2.3-installtool/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.3-installtool/" title="Install necessary tools" class="dd-item 
         
         
         
         ">
       <a href="../../2-prerequiste/2.3-installtool/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 2.3 </b> Install necessary tools
           
             <i class="fas fa-check read-icon"></i>
           
@@ -375,13 +375,13 @@
  
   
     
-    <li data-nav-id="/2-prerequiste/2.4-cloudwatch/" title="Preparing VPC and EC2" class="dd-item 
+    <li data-nav-id="/2-prerequiste/2.4-cloudwatch/" title="Setup CloudWatch log role ARN for API Gateway" class="dd-item 
         
         active
         
         ">
       <a href="../../2-prerequiste/2.4-cloudwatch/">
-           <b> 2.1 </b> Preparing VPC and EC2
+           <b> 2.4 </b> Setup CloudWatch log role ARN for API Gateway
           
             <i class="fas fa-check read-icon"></i>
           
@@ -410,13 +410,13 @@
  
   
     
-    <li data-nav-id="/3-serverless/" title="Connect to EC2 servers" class="dd-item 
+    <li data-nav-id="/3-serverless/" title="Introducing a basic serverless web application" class="dd-item 
         
         
         
         ">
       <a href="../../3-serverless/">
-           <b> 3. </b> Connect to EC2 servers
+           <b> 3. </b> Introducing a basic serverless web application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -441,13 +441,13 @@
  
   
     
-    <li data-nav-id="/3-serverless/3.1-deploy/" title="Connect to Public Instance" class="dd-item 
+    <li data-nav-id="/3-serverless/3.1-deploy/" title="Deploy the application" class="dd-item 
         
         
         
         ">
       <a href="../../3-serverless/3.1-deploy/">
-           <b> 3.1. </b> Connect to Public Instance
+           <b> 3.1. </b> Deploy the application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -469,13 +469,13 @@
  
   
     
-    <li data-nav-id="/3-serverless/3.2-adddata/" title="Connect to Private instance" class="dd-item 
+    <li data-nav-id="/3-serverless/3.2-adddata/" title="Adding data and exploring the" class="dd-item 
         
         
         
         ">
       <a href="../../3-serverless/3.2-adddata/">
-           <b> 3.2. </b> Connect to Private instance
+           <b> 3.2. </b> Adding data and exploring the
           
             <i class="fas fa-check read-icon"></i>
           
@@ -497,13 +497,13 @@
  
   
     
-    <li data-nav-id="/3-serverless/3.3-reviewcode/" title="Connect to Private instance" class="dd-item 
+    <li data-nav-id="/3-serverless/3.3-reviewcode/" title="Review the code" class="dd-item 
         
         
         
         ">
       <a href="../../3-serverless/3.3-reviewcode/">
-           <b> 3.2. </b> Connect to Private instance
+           <b> 3.3. </b> Review the code
           
             <i class="fas fa-check read-icon"></i>
           
@@ -532,13 +532,13 @@
  
   
     
-    <li data-nav-id="/4-saas/" title="Manage session logs" class="dd-item 
+    <li data-nav-id="/4-saas/" title="Introducing SaaS shared services" class="dd-item 
         
         
         
         ">
       <a href="../../4-saas/">
-           <b> 4. </b> Manage session logs
+           <b> 4. </b> Introducing SaaS shared services
           
             <i class="fas fa-check read-icon"></i>
           
@@ -563,13 +563,13 @@
  
   
     
-    <li data-nav-id="/4-saas/4.1-ini/" title="Connect to Public Instance" class="dd-item 
+    <li data-nav-id="/4-saas/4.1-ini/" title="Initialize the project" class="dd-item 
         
         
         
         ">
       <a href="../../4-saas/4.1-ini/">
-           <b> 3.1. </b> Connect to Public Instance
+           <b> 4.1. </b> Initialize the project
           
             <i class="fas fa-check read-icon"></i>
           
@@ -591,13 +591,13 @@
  
   
     
-    <li data-nav-id="/4-saas/4.2-misscode/" title="Connect to Public Instance" class="dd-item 
+    <li data-nav-id="/4-saas/4.2-misscode/" title="Adding the missing code" class="dd-item 
         
         
         
         ">
       <a href="../../4-saas/4.2-misscode/">
-           <b> 3.1. </b> Connect to Public Instance
+           <b> 4.2. </b> Adding the missing code
           
             <i class="fas fa-check read-icon"></i>
           
@@ -619,13 +619,13 @@
  
   
     
-    <li data-nav-id="/4-saas/4.3-deploy/" title="Connect to Public Instance" class="dd-item 
+    <li data-nav-id="/4-saas/4.3-deploy/" title="Deploying the changes" class="dd-item 
         
         
         
         ">
       <a href="../../4-saas/4.3-deploy/">
-           <b> 3.1. </b> Connect to Public Instance
+           <b> 4.3. </b> Deploying the changes
           
             <i class="fas fa-check read-icon"></i>
           
@@ -654,39 +654,13 @@
  
   
     
-    <li data-nav-id="/7-terminate/" title="Manage session logs" class="dd-item 
-        
-        
-        
-        ">
-      <a href="../../7-terminate/">
-           <b> 4. </b> Manage session logs
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-onboarding/" title="5-onboardings" class="dd-item 
+    <li data-nav-id="/5-onboarding/" title="Onboarding application" class="dd-item 
         
         
         
         ">
       <a href="../../5-onboarding/">
-          5-onboardings
+           <b> 5. </b> Onboarding application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -711,13 +685,13 @@
  
   
     
-    <li data-nav-id="/5-onboarding/5.1-onboardingadmin/" title="Sử dụng ứng dụng SaaS admin" class="dd-item 
+    <li data-nav-id="/5-onboarding/5.1-onboardingadmin/" title="Onboarding SaaS admin application" class="dd-item 
         
         
         
         ">
       <a href="../../5-onboarding/5.1-onboardingadmin/">
-           <b> 4.3. </b> Sử dụng ứng dụng SaaS admin
+           <b> 5.1. </b> Onboarding SaaS admin application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -739,13 +713,13 @@
  
   
     
-    <li data-nav-id="/5-onboarding/5.2-landing/" title="Sử dụng ứng dụng SaaS admin" class="dd-item 
+    <li data-nav-id="/5-onboarding/5.2-landing/" title="Onboarding the Sign-up application" class="dd-item 
         
         
         
         ">
       <a href="../../5-onboarding/5.2-landing/">
-           <b> 4.3. </b> Sử dụng ứng dụng SaaS admin
+           <b> 5.2. </b> Onboarding the Sign-up application
           
             <i class="fas fa-check read-icon"></i>
           
@@ -767,13 +741,13 @@
  
   
     
-    <li data-nav-id="/5-onboarding/5.3-data/" title="Sử dụng ứng dụng SaaS admin" class="dd-item 
+    <li data-nav-id="/5-onboarding/5.3-data/" title="Reviewing the underlying data stores" class="dd-item 
         
         
         
         ">
       <a href="../../5-onboarding/5.3-data/">
-           <b> 4.3. </b> Sử dụng ứng dụng SaaS admin
+           <b> 5.3. </b> Reviewing the underlying data stores
           
             <i class="fas fa-check read-icon"></i>
           
@@ -788,6 +762,58 @@
           
         
         </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/6-sum/" title="Summary" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../6-sum/">
+           <b> 6. </b> Summary
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/7-terminate/" title="Cleanup" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../../7-terminate/">
+           <b> 7. </b> Cleanup
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
               
     </li>
   
@@ -881,7 +907,7 @@
     <br>
     <br>
         <b> Last Updated </b> <br>
-        <i><font color=orange>30-01-2022</font></i>
+        <i><font color=orange>17-08-2023</font></i>
     </left>
     <left>
         <br>
@@ -935,7 +961,7 @@
             
           
           
-            <a href='../../'>Session Management</a> > <a href='../../2-prerequiste/'>Preparation </a> > Preparing VPC and EC2
+            <a href='../../'>AWS Serverless SaaS Workshop</a> > <a href='../../2-prerequiste/'>Preparation </a> > Setup CloudWatch log role ARN for API Gateway
           
         
           
@@ -952,7 +978,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#content">Content</a></li>
+        <li></li>
       </ul>
     </li>
   </ul>
@@ -972,7 +998,7 @@
           
             <h1>
               
-              Preparing VPC and EC2
+              Setup CloudWatch log role ARN for API Gateway
             </h1>
           
 
@@ -980,23 +1006,49 @@
 
 
 
-	<p>In this step, we will need to create a VPC with 2 public / private subnets. Then create 1 EC2 Instance Linux located in the public subnet, 1 EC2 Instance Windows located in the private subnet.</p>
-<p>The architecture overview after you complete this step will be as follows:</p>
-<p><img src="../../images/arc-01.png" alt="VPC"></p>
-<p>To learn how to create EC2 instances and VPCs with public/private subnets, you can refer to the lab:</p>
-<ul>
-<li><a href="https://000004.awsstudygroup.com/en/">About Amazon EC2</a></li>
-<li><a href="https://000003.awsstudygroup.com/en/">Works with Amazon VPC</a></li>
-</ul>
-<h3 id="content">Content</h3>
-<ul>
-<li><a href="2.1.1-createvpc/">Create VPC</a></li>
-<li><a href="2.1.2-createpublicsubnet/">Create Public Subnet</a></li>
-<li><a href="2.1.3-createprivatesubnet/">Create Private Subnet</a></li>
-<li><a href="2.1.4-createsecgroup/">Create security group</a></li>
-<li><a href="2.1.5-createec2linux/">Create public Linux server</a></li>
-<li><a href="2.1.6-createec2windows/">Create private Windows server</a></li>
-</ul>
+	
+<div class="notices tip" ><p>First, we will update to the latest version of the AWS CLI:</p>
+<pre tabindex="0"><code>pip install --user --upgrade awscli aws-sam-cli
+</code></pre></div>
+
+<p>In this step, in our AWS account, we will make sure the CloudWatch log ARN role is set up for API Gateway. You need this setup step to make sure API Gateway can log to CloudWatch so that you can debug API Gateway REST APIs errors.</p>
+<h4 id="api-gateway---rest-api">API Gateway - REST API</h4>
+<p>Type <strong>API Gateway</strong> in the service search bar on the AWS Console then select <strong>API Gateway</strong>.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-1edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>If this is your first time using API Gateway, you will see a page that introduces API Gateway features. Under <strong>REST API,</strong> select <strong>Build.</strong> When the <strong>Create Example API</strong> popup appears, select <strong>OK.</strong></p>
+<p>If this is not your first time using API Gateway, select <strong>Create API</strong> in the upper right corner of the page.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-2edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>On the <strong>Choose an API type page,</strong> we choose <strong>REST API</strong> but not <strong>Private</strong> and choose <strong>Build.</strong></p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-3edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>In <strong>Choose the protocol</strong> page, we will choose its protocol, we choose <strong>REST</strong>, in <strong>Create new API,</strong> we choose <strong>Example API,</strong> it will An example API pops up, we can see the details of it.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-4edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>And finally press the <strong>Import,</strong> button it will create a new API.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-5edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>The new API will be shown here as <strong>PetStore.</strong></p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-6edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+
+<div class="notices tip" ><p>To know more about how to use that API, you will see here: <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-from-example.html">Example REST API</a></p>
+</div>
+
+<h4 id="tạo-cloudwatch-role">Tạo CloudWatch role</h4>
+<p>In the next step, we will create an ARN role that will allow CloudWatch to log how the action sends requests to the API.</p>
+<p>First we will go to the <a href="https://ap-southeast-1.console.aws.amazon.com/iamv2/home?region=ap-southeast-1#/home">AWS Identity and Access Management (IAM) console</a>, in the left navigation bar, we choose <strong>Roles.</strong></p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-7edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>Click the <strong>Create role</strong> button.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-8edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>In <strong>Create role,</strong> section <strong>Trusted entity type,</strong> we choose <strong>AWS service,</strong> in <strong>Use case,</strong> we will click on drop box <strong>Use cases for other AWS services,</strong> we choose <strong>API Gateway</strong> and press the <strong>Next</strong> button.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-9edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>On the <strong>Add permissions,</strong> page we will see the <strong>AmazonAPIGatewayPushToCloudWatchLogs</strong> policy already selected. This policy has all the permissions we need.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-10edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>Finally on the page <strong>Name, review, and create,</strong> we name it in the <strong>Role name,</strong> here we will set it as <strong>cloudwatch-api.</strong> The other items we leave default, press the button <strong>Create role.</strong> So we have successfully created.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-11edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>Go back to the <strong>Role page,</strong> type in the search bar <strong>cloudwatch-api</strong> it will show the role you just created.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-12edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>We click on the <strong>cloudwatch-api</strong> role to see details. We will see the <strong>ARN</strong> value of that role and copy it for the next step.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-13edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>Go back to the <a href="https://ap-southeast-1.console.aws.amazon.com/apigateway/main?region=ap-southeast-1">API Gateway console</a> page, select the API named <strong>PetStore</strong> then in the left navigation bar, under <strong>Client Certificates,</strong> we choose <strong>Settings.</strong> In the <strong>CloudWatch log role ARN section,</strong> we paste the ARN of the <strong>cloudwatch-api role</strong> enter and press <strong>Save</strong> button.</p>
+<p><img src="../../images/2.prerequisite/2.4-cloudwatch/2.4-14edit.png" alt="Name for Cloud9 Workspace và chọn Environment type"></p>
+<p>So we&rsquo;ve finished setting up the CloudWatch log role ARN for API Gateway. Let&rsquo;s go to the next step.</p>
 
 
 
@@ -1365,22 +1417,6 @@
 
                     
                     
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                         
                     
                     
@@ -1433,6 +1469,38 @@
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -1446,10 +1514,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../../2-prerequiste/2.3-installtool/" title="Preparing VPC and EC2"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../../2-prerequiste/2.3-installtool/" title="Install necessary tools"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../../3-serverless/" title="Connect to EC2 servers" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../../3-serverless/" title="Introducing a basic serverless web application" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1459,19 +1527,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1691203936"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1691203936"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1691203936"></script>
-    <script src="../../js/jquery.sticky.js?1691203936"></script>
-    <script src="../../js/featherlight.min.js?1691203936"></script>
-    <script src="../../js/highlight.pack.js?1691203936"></script>
+    <script src="../../js/clipboard.min.js?1692263736"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1692263736"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1692263736"></script>
+    <script src="../../js/jquery.sticky.js?1692263736"></script>
+    <script src="../../js/featherlight.min.js?1692263736"></script>
+    <script src="../../js/highlight.pack.js?1692263736"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom-3.6.0.js?1691203936"></script>
-    <script src="../../js/learn.js?1691203936"></script>
-    <script src="../../js/hugo-learn.js?1691203936"></script>
+    <script src="../../js/modernizr.custom-3.6.0.js?1692263736"></script>
+    <script src="../../js/learn.js?1692263736"></script>
+    <script src="../../js/hugo-learn.js?1692263736"></script>
 
-    <link href="../../mermaid/mermaid.css?1691203936" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.js?1691203936"></script>
+    <link href="../../mermaid/mermaid.css?1692263736" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.js?1692263736"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

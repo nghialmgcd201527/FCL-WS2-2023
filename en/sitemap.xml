@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/2-prerequiste/2.1-createcloud9workspace/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-prerequiste/2.1-createcloud9workspace/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-prerequiste/2.1-createcloud9workspace/"
+                />
+  </url><url>
     <loc>/3-serverless/3.1-deploy/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,30 +50,6 @@
                 href="/4-saas/4.1-ini/"
                 />
   </url><url>
-    <loc>/4-saas/4.2-misscode/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/4-saas/4.2-misscode/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/4-saas/4.2-misscode/"
-                />
-  </url><url>
-    <loc>/4-saas/4.3-deploy/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/4-saas/4.3-deploy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/4-saas/4.3-deploy/"
-                />
-  </url><url>
     <loc>/1-introduce/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,6 +60,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/1-introduce/"
+                />
+  </url><url>
+    <loc>/5-onboarding/5.1-onboardingadmin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/5-onboarding/5.1-onboardingadmin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/5-onboarding/5.1-onboardingadmin/"
                 />
   </url><url>
     <loc>/1-introduce/1.1-whatsaas/</loc>
@@ -74,6 +86,66 @@
                 href="/1-introduce/1.1-whatsaas/"
                 />
   </url><url>
+    <loc>/3-serverless/3.2-adddata/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/3-serverless/3.2-adddata/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/3-serverless/3.2-adddata/"
+                />
+  </url><url>
+    <loc>/4-saas/4.2-misscode/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-saas/4.2-misscode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-saas/4.2-misscode/"
+                />
+  </url><url>
+    <loc>/2-prerequiste/2.2-repodisk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-prerequiste/2.2-repodisk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-prerequiste/2.2-repodisk/"
+                />
+  </url><url>
+    <loc>/5-onboarding/5.2-landing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/5-onboarding/5.2-landing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/5-onboarding/5.2-landing/"
+                />
+  </url><url>
+    <loc>/2-prerequiste/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-prerequiste/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-prerequiste/"
+                />
+  </url><url>
     <loc>/1-introduce/1.2-whyserverless/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,6 +156,66 @@
                 rel="alternate"
                 hreflang="en"
                 href="/1-introduce/1.2-whyserverless/"
+                />
+  </url><url>
+    <loc>/4-saas/4.3-deploy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-saas/4.3-deploy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-saas/4.3-deploy/"
+                />
+  </url><url>
+    <loc>/2-prerequiste/2.3-installtool/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-prerequiste/2.3-installtool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-prerequiste/2.3-installtool/"
+                />
+  </url><url>
+    <loc>/3-serverless/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/3-serverless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/3-serverless/"
+                />
+  </url><url>
+    <loc>/3-serverless/3.3-reviewcode/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/3-serverless/3.3-reviewcode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/3-serverless/3.3-reviewcode/"
+                />
+  </url><url>
+    <loc>/5-onboarding/5.3-data/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/5-onboarding/5.3-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/5-onboarding/5.3-data/"
                 />
   </url><url>
     <loc>/1-introduce/1.3-whatbuild/</loc>
@@ -110,52 +242,16 @@
                 href="/1-introduce/1.4-serverlessused/"
                 />
   </url><url>
-    <loc>/1-introduce/1.5-prior/</loc>
+    <loc>/4-saas/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/1.5-prior/"
+                href="/vi/4-saas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/1.5-prior/"
-                />
-  </url><url>
-    <loc>/2-prerequiste/2.1-createcloud9workspace/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/2-prerequiste/2.1-createcloud9workspace/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2-prerequiste/2.1-createcloud9workspace/"
-                />
-  </url><url>
-    <loc>/2-prerequiste/2.2-repodisk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/2-prerequiste/2.2-repodisk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2-prerequiste/2.2-repodisk/"
-                />
-  </url><url>
-    <loc>/2-prerequiste/2.3-installtool/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/2-prerequiste/2.3-installtool/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2-prerequiste/2.3-installtool/"
+                href="/4-saas/"
                 />
   </url><url>
     <loc>/2-prerequiste/2.4-cloudwatch/</loc>
@@ -170,112 +266,40 @@
                 href="/2-prerequiste/2.4-cloudwatch/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>/5-onboarding/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/"
+                href="/vi/5-onboarding/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/5-onboarding/"
                 />
   </url><url>
-    <loc>/3-serverless/3.2-adddata/</loc>
+    <loc>/1-introduce/1.5-prior/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-serverless/3.2-adddata/"
+                href="/vi/1-introduce/1.5-prior/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-serverless/3.2-adddata/"
+                href="/1-introduce/1.5-prior/"
                 />
   </url><url>
-    <loc>/3-serverless/3.3-reviewcode/</loc>
+    <loc>/6-sum/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-serverless/3.3-reviewcode/"
+                href="/vi/6-sum/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-serverless/3.3-reviewcode/"
-                />
-  </url><url>
-    <loc>/2-prerequiste/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/2-prerequiste/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2-prerequiste/"
-                />
-  </url><url>
-    <loc>/3-serverless/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/3-serverless/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/3-serverless/"
-                />
-  </url><url>
-    <loc>/5-onboarding/5.1-onboardingadmin/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5-onboarding/5.1-onboardingadmin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5-onboarding/5.1-onboardingadmin/"
-                />
-  </url><url>
-    <loc>/5-onboarding/5.2-landing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5-onboarding/5.2-landing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5-onboarding/5.2-landing/"
-                />
-  </url><url>
-    <loc>/5-onboarding/5.3-data/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5-onboarding/5.3-data/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5-onboarding/5.3-data/"
-                />
-  </url><url>
-    <loc>/4-saas/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/4-saas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/4-saas/"
+                href="/6-sum/"
                 />
   </url><url>
     <loc>/7-terminate/</loc>
@@ -288,18 +312,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/7-terminate/"
-                />
-  </url><url>
-    <loc>/5-onboarding/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5-onboarding/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5-onboarding/"
                 />
   </url><url>
     <loc>/categories/</loc>
